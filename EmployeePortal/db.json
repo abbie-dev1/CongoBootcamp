@@ -2,11 +2,11 @@
     "signupUsersList": [
         {
           "email": "abbie@gmail.com",
-          "password": "1234"
+          "password": "1234@abbie"
         },
         {
           "email": "sithole@gmail.com",
-          "password": "1234"
+          "password": "hello@1234"
         }
       ]
     }

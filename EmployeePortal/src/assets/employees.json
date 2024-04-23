@@ -1,6 +1,6 @@
-{
-    "employees":[
+[
        {
+         "id" :1,
           "jobTitle":"Frontend Developer",
           "techstack":[
              "React",
@@ -8,10 +8,11 @@
              "html",
              "css"
           ],
-          "emailAddress":"fe@gmail.com",
-          "image": "https://trio.dev/static/46a74b0f7c9b47353ea207a29731bc51/263a75529a1752b75d64f9f21fd07c92.jpg"
+          "email" :"fe@gmail.com",
+          "image": "https://t4.ftcdn.net/jpg/01/51/26/75/360_F_151267526_CCzkZ7cM0p2dTalSL6RQIoDxr2VUXEkZ.jpg"
        },
        {
+         "id" :2,
           "jobTitle":"Backend Developer",
           "techstack":[
              "React",
@@ -22,6 +23,7 @@
           "image": "https://s3.studytonight.com/curious/uploads/pictures/1631204081-106730.png"
        },
        {
+         "id" :3,
           "jobTitle":"Fullstack",
           "employeeCode":"E3",
           "techstack":[
@@ -35,5 +37,4 @@
           "email":"fs@gmail.com",
           "image": "https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg"
        }
-    ]
- }
+]

@@ -8,6 +8,9 @@ import { RegisterComponent } from './pages/register/register.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ProfileComponent } from './components/Profile/Profile.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,10 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
